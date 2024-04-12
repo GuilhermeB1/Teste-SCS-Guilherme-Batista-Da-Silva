@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -35,19 +35,25 @@ header nav ul li {
   cursor: pointer;
 }
 
-header nav ul li a{
+header nav ul li a {
+  position: relative;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  background-color: chartreuse;
 }
 
 header nav ul li a::before {
-  display: inline-block;
-  height: 2px;
-  width: 100px;
+  content: "";
   position: absolute;
-  bottom: 0;
-  background-color: rgb(179, 130, 8);
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  transition: width 0.3s ease;
+  background-color: rgb(222, 47, 47);
+}
+
+header nav ul li a:hover::before {
+  width: 100%;
 }
 
 header .login {
@@ -55,8 +61,25 @@ header .login {
   justify-content: center;
   gap: 1.5rem;
   align-items: center;
+  cursor: pointer;
 }
 
-.login p {
-  cursor: pointer;
+#a-login {
+  position: relative;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+#a-login::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  transition: width 0.3s ease;
+  background-color: rgb(222, 47, 47);
+}
+
+#a-login:hover::before {
+  width: 100%;
 }
