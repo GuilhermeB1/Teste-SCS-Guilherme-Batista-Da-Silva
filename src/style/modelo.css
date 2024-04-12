@@ -1,0 +1,47 @@
+.modelos {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+
+.modelos .car-modelo {
+  height: 22rem;
+  position: relative;
+  width: 17rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 1rem;
+  border: 1px solid black;
+  border-radius: 24px;
+}
+
+.modelos .car-modelo .img-car {
+  position: absolute;
+  top: -7rem;
+}
+
+.modelos .car-modelo .title {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.modelos .car-modelo .informacao {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.modelos .car-modelo button {
+  padding: 0.8rem 1rem;
+  margin: 0 1rem;
+  border-radius: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: transparent;
+}
