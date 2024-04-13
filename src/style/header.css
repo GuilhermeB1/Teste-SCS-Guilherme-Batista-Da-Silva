@@ -53,7 +53,7 @@ header nav ul li a::before {
   background-color: rgb(222, 47, 47);
 }
 
-header nav ul li a:hover::before {
+header nav ul li a:hover::before,header nav ul li a.active::before {
   width: 100%;
 }
 

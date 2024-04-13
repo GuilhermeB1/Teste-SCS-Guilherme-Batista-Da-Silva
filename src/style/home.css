@@ -5,5 +5,5 @@
   display: block;
   background-position: center;
   background: url(../backgroud/backgroud.png) no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
