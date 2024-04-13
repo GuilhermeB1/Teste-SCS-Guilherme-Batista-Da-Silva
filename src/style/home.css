@@ -4,6 +4,6 @@
   height: 100vh;
   display: block;
   background-position: center;
-  background: url(/src/backgroud/backgroud.png) no-repeat;
+  background: url(../backgroud/backgroud.png) no-repeat;
   background-size: contain;
 }
