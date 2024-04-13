@@ -9,17 +9,15 @@
   background-position: center;
 }
 
-.footer .gradiente {
-  height: 60%;
-  width: 90%;
-}
+
 
 .footer .sobreposicao {
   justify-content: center;
   text-align: end;
-  padding: 0 7% 0 5%;
-  background: linear-gradient(to right, rgba(89, 87, 87, 0 -1), rgba(89, 87, 87, 0.8));
-  backdrop-filter: blur(6px);
+  padding: 0 7% 0 50%;
+  background: linear-gradient(to right, transparent 50%, black 120%);
+  backdrop-filter: blur(8px);
+  mask-image: linear-gradient(to right, transparent 40%, black 50%);
   color: white;
   display: flex;
   align-items: end;
