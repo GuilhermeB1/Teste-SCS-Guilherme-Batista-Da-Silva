@@ -1,0 +1,56 @@
+.footer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  background-image: url(/src/img/footer.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.footer .gradiente {
+  height: 60%;
+  width: 90%;
+}
+
+.footer .sobreposicao {
+  justify-content: center;
+  text-align: end;
+  padding: 0 7% 0 5%;
+  background: linear-gradient(to right, rgba(89, 87, 87, 0 -1), rgba(89, 87, 87, 0.8));
+  backdrop-filter: blur(6px);
+  color: white;
+  display: flex;
+  align-items: end;
+  gap: 2rem;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.footer .sobreposicao h2 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.footer .sobreposicao p {
+  font-weight: 300;
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.footer .sobreposicao button{
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  width: 40%;
+  cursor: pointer;
+  padding: 0.8rem 2rem;
+}
+
+.footer .sobreposicao button:hover {
+  background-color: rgb(10, 9, 9);
+  color: white;
+  transition: 0.8s;
+}

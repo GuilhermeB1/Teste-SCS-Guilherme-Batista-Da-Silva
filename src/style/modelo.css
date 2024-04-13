@@ -1,6 +1,6 @@
 .modelos {
   display: flex;
-  height: 100vh;
+  margin-top: 10%;
   justify-content: center;
   align-items: center;
   gap: 8rem;
@@ -39,9 +39,15 @@
 
 .modelos .car-modelo button {
   padding: 0.8rem 1rem;
-  margin: 0 1rem;
+  margin: 0;
   border-radius: 20px;
   border: 1px solid black;
   cursor: pointer;
   background-color: transparent;
+}
+
+.modelos .car-modelo button:hover{
+background-color: rgb(210, 11, 11);
+color: white;
+transition: 0.8s;
 }

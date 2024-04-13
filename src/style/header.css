@@ -9,6 +9,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   height: 100vh;
+  background-color: #EBEFF2;
 }
 
 header {
@@ -70,14 +71,9 @@ header .login {
   color: rgb(255, 255, 255);
 }
 
-#a-login::before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: -5px;
-  transition: width 0.3s ease;
-  background-color: rgb(222, 47, 47);
+#a-login:hover {
+  transition: 0.8s ease;
+  color: rgb(222, 47, 47);
 }
 
 #a-login:hover::before {
