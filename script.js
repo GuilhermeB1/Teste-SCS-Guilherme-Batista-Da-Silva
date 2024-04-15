@@ -10,4 +10,3 @@ for (let i = 0; i < 2; i++) {
   novaImagem.src = imagens[i];
   cardsGlobal.appendChild(novoCard);
 }
-
