@@ -10,7 +10,6 @@
 }
 
 
-
 .footer .sobreposicao {
   justify-content: center;
   text-align: end;
@@ -38,7 +37,7 @@
   font-size: 1.2rem;
 }
 
-.footer .sobreposicao button{
+.footer .sobreposicao button {
   background: transparent;
   color: white;
   border: 1px solid white;
